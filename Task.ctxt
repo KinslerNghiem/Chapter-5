@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Task
+comment0.text=\r\n\ Methods\ to\ sort\ tasks\ and\ implement\ the\ Priority\ interface.\r\n\r\n\ @Tien\ Nghiem\r\n\ @1/8/25\r\n
+comment1.params=priority\ task
+comment1.target=Task(double,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ to\ update\ instance\ variables\r\n\ @param\ double\ priority,\ String\ task\r\n
+comment2.params=priority\ task\ done
+comment2.target=Task(double,\ java.lang.String,\ boolean)
+comment2.text=\r\n\ Overloaded\ constructor\ to\ update\ instance\ variables\ and\ whether\ the\ task\ is\ done\ or\ not\r\n\ @param\ double\ priority,\ String\ task,\ boolean\ done\r\n
+comment3.params=obj
+comment3.target=int\ compareTo(java.lang.Object)
+comment3.text=\r\n\ Uses\ comparable\ interface\ to\ compare\ objects\ based\ primarily\ on\ priority\ level\r\n\ @param\ Object\ obj\r\n
+comment4.params=t
+comment4.target=double\ getPriority(Task)
+comment4.text=\r\n\ A\ getter\ to\ return\ priority\ level.\r\n\ @param\ Task\ t\r\n
+comment5.params=p
+comment5.target=double\ setPriority(double)
+comment5.text=\r\n\ A\ setter\ to\ set\ a\ priority\ level\ if\ task\ is\ done\r\n\ @param\ double\ p\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ A\ method\ to\ output\ the\ data.\r\n
+numComments=7
